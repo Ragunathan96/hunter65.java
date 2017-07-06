@@ -16,7 +16,7 @@ public class Pro61 {
     	      }
     }
 	}System.out.print(" "+s2.substring(0,1));
-    String s3=(s2.substring(1,3));
+    String s3=(s2.substring(1,s2.length()-1));
     for(int i=0;i<s3.length();i++){
     	for(int j=0;j<ch3.length;j++){
     		 if(s3.charAt(i)==ch3[j]){
