@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-import javax.xml.bind.DatatypeConverter;
 
 
 public class Pro61 {
@@ -8,9 +7,6 @@ public class Pro61 {
 	Scanner s=new Scanner(System.in);
 	String s1=s.next();
 	String s2=s.next();
-	char ch1='\0';
-	char ch2='\0';
-	char ch5='\0';
     char ch[]={'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
     char ch3[]={'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','a','b','c','d','e','f','g','h','i','j'};
     for(int i=0;i<s1.length();i++){
