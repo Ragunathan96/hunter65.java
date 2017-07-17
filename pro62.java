@@ -7,7 +7,7 @@ public class pro62 {
 		String s1="";
 		String s2="";
 		int temp=0;
-		String pal="";
+		String palin="";
 		for(int i=0;i<str.length();i++){
 			for(int j=i+1;j<str.length();j++){
 				if(str.charAt(i)==str.charAt(j)){
@@ -17,15 +17,14 @@ public class pro62 {
 					   int max=s2.length();
 					   if(max>temp){
 						   temp=max;
-						   pal=s2;
-					   }
-				 	
+						   palin=s2;
+					   }	
 				 
 				    }
 				
 				}	
 			}
-		}System.out.println(pal);
+		}System.out.println(palin);
 	}
 
 }
